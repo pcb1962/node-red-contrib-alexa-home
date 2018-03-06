@@ -79,3 +79,33 @@
         }
     });
 </script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('alexa-temperature', {
+        category: 'input',
+        color: '#3FADB5',
+        defaults: {
+            devicename: {
+                value: "",
+                required: true
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "alexa-home.png",
+        label: function () {
+            return this.devicename || "Alexa device";
+        }
+    });
+</script>
+<script type="text/x-red" data-template-name="alexa-temperature">
+    <div class="form-row">
+        <label for="node-input-devicename">
+            <i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-devicename" placeholder="Ceiling light">
+    </div>
+    <div class="form-tips">Alexa uses this
+        <strong>Name</strong> to indentify your device by voice. This has to be unique for each device. If you have renamed your
+        device, please ask Alexa to discover again.</div>
+</script>
+
