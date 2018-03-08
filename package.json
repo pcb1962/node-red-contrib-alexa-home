@@ -8,7 +8,7 @@
     ],
     "node-red": {
       "nodes": {
-        "alexa-home": "alexa/alexa-home.js"
+        "alexa-home": "alexa/alexa.js"
       }
     },
     "dependencies": {
