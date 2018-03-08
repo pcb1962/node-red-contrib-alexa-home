@@ -1,21 +1,30 @@
 {
-    "name": "node-red-contrib-alexa-home",
-    "version": "0.4.0",
-    "description": "Works directly with Alexa in your local network",
-    "license": "MIT",
-    "keywords": [
-        "node-red", "alexa", "phillips", "hue"
-    ],
-    "node-red": {
-      "nodes": {
-        "alexa-home": "alexa/alexa.js"
-      }
-    },
-    "dependencies": {
-      "ip": "^1.1.5",
-      "node-persist": "^2.1.0",
-      "peer-ssdp": "0.0.5",
-      "stoppable": "^1.0.4"
-    },
-    "repository": "mabunixda/node-red-contrib-alexa-home"
+  "name": "node-red-contrib-alexa-home",
+  "version": "0.4.0",
+  "description": "Works directly with Alexa in your local network",
+  "homepage": "https://github.com/mabunixda/node-red-contrib-alexa-home/#readme",
+  "author": "mabunixda",
+  "license": "MIT",
+  "keywords": [
+    "node-red",
+    "alexa",
+    "phillips",
+    "hue",
+    "smart"
+  ],
+  "node-red": {
+    "nodes": {
+      "alexa-home": "alexa/alexa.js"
+    }
+  },
+  "dependencies": {
+    "ip": "^1.1.5",
+    "node-persist": "^2.1.0",
+    "peer-ssdp": "0.0.5",
+    "stoppable": "^1.0.4"
+  },
+  "repository": "mabunixda/node-red-contrib-alexa-home",
+  "bugs": {
+    "url": "https://github.com/mabunixda/node-red-contrib-alexa-home/issues"
   }
+}
